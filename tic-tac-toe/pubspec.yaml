@@ -1,0 +1,34 @@
+name: tic
+description: "A new Flutter project."
+
+# Prevent accidental publishing to pub.dev
+publish_to: 'none'
+
+# Version and build number
+version: 1.0.0+1
+
+# Environment
+environment:
+  sdk: ^3.5.4
+
+# Dependencies
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+# Development dependencies
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+  flutter_lints: ^4.0.0
+
+# Flutter Launcher Icons configuration
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/app_icon.png"
+
+flutter:
+  uses-material-design: true
